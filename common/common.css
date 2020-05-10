@@ -1,0 +1,16 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.u-f{
+	display: flex;
+}
+.u-f-ac{
+	display: flex;
+	align-items: center;
+}
+.u-f-ajc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

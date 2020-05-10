@@ -1,0 +1,1 @@
+<view><view>微信登录</view><view><block wx:for="{{providerList}}" wx:for-item="value" wx:for-index="key" wx:key="key"><button class="page-body-button" type="primary" data-event-opts="{{[['tap',[['tologin',['$0'],[[['providerList','',key]]]]]]]}}" bindtap="__e">{{value.name}}</button></block></view><view>微信登录</view></view>

@@ -1,0 +1,10 @@
+
+.text{
+	color: #333333;
+	font-size: 40rpx;
+}
+.active{
+	color: #007AFF;
+	border-bottom: 3px solid #09BB07;
+}
+
