@@ -163,7 +163,12 @@
 			}
 		},
 		onLoad() {
-
+			this.$http.get("",{}).then(res=>{
+				console.log("成功啦")
+			}).catch(err=>{
+				console.log("失败啦11")
+				console.log(err)
+			})
 		},
 		onNavigationBarSearchInputClicked(){
 			// uni.navigateTo({
