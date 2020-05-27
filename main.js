@@ -13,6 +13,9 @@ Vue.prototype.$http = request;
 import chat from "./common/chat.js";
 Vue.prototype.$chat = chat;
 
+import store from './store'
+Vue.prototype.$store = store
+
 import User from "./common/user.js"
 Vue.prototype.User = User
 Vue.config.productionTip = false
@@ -21,6 +24,7 @@ App.mpType = 'app'
 
 const app = new Vue({
     ...App,
+		store,
 	config,
 	lib,
 })
